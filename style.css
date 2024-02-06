@@ -1,0 +1,57 @@
+html {
+  background-image: url("images/hospital-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+}
+
+body {
+  background-color: rgb(252, 252, 252, 0.7);
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  border-radius: 0;
+}
+
+#image {
+  width: 200px;
+  border: solid black 2px;
+  border-radius: 15px;
+  padding: 5px 5px 5px 5px;
+  margin: 20px;
+}
+
+#secondary {
+  border: solid darkblue 2px;
+  width: 500px;
+  border-radius: 25px;
+  background-color: lightblue;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#image:hover {
+  border-color: crimson;
+}
+
+h3 {
+  color: gray;
+}
+
+#pp {
+  color: gray;
+}
+
+i {
+  font-size: small;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  border-color: solid black 2px;
+  font-size: medium;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
